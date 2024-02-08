@@ -1,0 +1,196 @@
+body{
+    background: url('mon.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.navbar1{
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar1 ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    flex-wrap: wrap;
+}
+.navbar1 li{
+    display: inline-flex;
+}
+.navbar1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.navbar1 a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: 800;
+}
+
+.content {
+    padding: 16px;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+
+.td1:hover{  color: rgb(255, 255, 255); opacity: 0.8; animation: jump 1.2s infinite;}
+.td2:hover{  color: rgb(255, 255, 255); opacity: 0.6; animation: jump 1.2s infinite;}
+.td3:hover{  color: rgb(255, 255, 255); opacity: 0.6; animation: jump 1.2s infinite;}
+.img1:hover{ opacity: 0.4; cursor: pointer;}
+.img2:hover{ opacity: 0.4; cursor: pointer;}
+.img3:hover{ opacity: 0.4; cursor: pointer;}
+.img4:hover{ opacity: 0.4; cursor: pointer;}
+.img5:hover{ opacity: 0.4; cursor: pointer;}
+.img6:hover{ opacity: 0.4; cursor: pointer;}
+.img7:hover{ opacity: 0.4; cursor: pointer;}
+.img8:hover{ opacity: 0.4; cursor: pointer;}
+.img9:hover{ opacity: 0.4; cursor: pointer;}
+.img10:hover{ opacity: 0.4; cursor: pointer;}
+.table1{
+    border: 0px;
+    display: flex;
+    padding: 0;
+    text-align: center; 
+}
+@keyframes jump{
+    0%, 20%, 50%, 80%, 100% {
+        transfrom: translateY(0);
+    } 
+    40% {
+        transfrom: traslateY(-30px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+@import 'node_modules/@tabler/icons-webfont/tabler-icons.scss';
+
+.h11{
+    position: absolute ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    display: relative;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.h22{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    display: flex;
+    line-height: 50px;
+}
+
+.sinebar1{
+    background: transparent;
+    width: 100%;
+    margin-top: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+}
+.content1{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 450px;
+    padding: 10px;
+    background-color: rgba(131, 99, 99, 0.76);
+    margin-left: 25px;
+    border-radius: 15px 80px 15px 80px;
+}
+.content1 p{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    font-weight: 400;
+    text-align: justify;
+}
+.content1 h2{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.content2{
+    max-width: 850px;
+    border-radius: 50px 10px 10px 50px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(131, 99, 99, 0.76);
+    margin-left: 20px;
+    justify-content: flex-end;
+
+}
+.content2 p{
+    font-size: 2em;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0px solid;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    cursor:context-menu;
+}
+.h2footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.h2div{
+    border: solid 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 8px;
+}
+.h2div2{
+    border: 0px solid;
+    line-height: 18px;
+    display: flex;
+    position: relative;
+    justify-content: start;
+    background: transparent;
+    width: 340px;
+    text-align: start;
+    color: #ddd;
+    font-size: 1.6em;
+    cursor: context-menu;
+    flex-wrap: wrap;
+}
+.end{
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: context-menu;
+
+}
